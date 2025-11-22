@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+*.json.log
+test-results.json
+
+# authentication & tokens (SECURITY CRITICAL)
+.auth/
+*token*.json
+*.pem
+*.key
